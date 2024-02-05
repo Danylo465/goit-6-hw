@@ -42,14 +42,14 @@ h1,h2,h3,p{
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/hero1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/mob-hero.jpg);
   }
 }
 
 
 @media screen and (min-width:768px) and (min-resolution:192dpi) {
     .title {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero2.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-hero.jpg);
     }
     
     
@@ -59,7 +59,7 @@ h1,h2,h3,p{
 
 @media screen and (min-width:1158px) and (min-resolution:192dpi) {
     .title {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero3.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/des-hero.jpg);
     }
   }
 
