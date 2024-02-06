@@ -160,6 +160,7 @@ display: flex;
   align-items: start;
   margin-bottom: 48px;
   margin-left: auto;
+  font-style: normal;
 }
 
 .mob-section-social {
@@ -176,6 +177,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2%;
 letter-spacing: 0.02em;
+
 color: var(--iris);
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -323,7 +325,8 @@ line-height: 1.11;
 color: #ffffff;
 letter-spacing: 0.02em;
 max-width: 496px;
-margin: auto;
+/* margin: auto; */
+margin: 0px 56px;
 }
 
 .main-button {
@@ -403,6 +406,7 @@ margin: auto;
 
 .par-inv{
     color: #434455;
+    line-height: 1.5;
 }
 /* Кінець налаштувань другої секції */
 
@@ -441,7 +445,7 @@ margin: auto;
 .team-list{
     display: flex; 
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 }
 
 .team-list-items{
@@ -532,6 +536,7 @@ margin: auto;
     text-align: center;
     color: rgba(46, 47, 66, 1);
     margin-bottom: 72px;
+    
 }
 
 .portfolio-list{
@@ -587,10 +592,9 @@ margin: auto;
 .portfolio-items-header{
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -776,7 +780,7 @@ align-items: center;
 
 .full-modal-form{
     width: 288px;
-    height: 623px;
+    min-height: 623px;
     flex-shrink: 0;
     border-radius: 4px;
     background: var(--DAIRY, #FCFCFC);
