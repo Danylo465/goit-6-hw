@@ -83,7 +83,9 @@
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.team-list-items{
+    margin-bottom: 32px;
+}
 .address-items {
     display: flex;
     flex-direction: column;
@@ -105,6 +107,7 @@
 }
 .list-text-items {
     width: calc(50% - 12px);
+    margin-bottom: 12px;
 }
 
 .differences-container {
@@ -126,6 +129,7 @@
 
 .par-inv {
     font-weight: 500;
+
 }
 
 .team-container {
@@ -152,7 +156,7 @@
 }
 
 .footer {
-    padding: 96px 0 96px 92px;
+    padding: 96px 92px;
 }
 
 .full-footer-cont {
@@ -206,9 +210,7 @@
 .main-header{
     margin: 0 auto;
 }
-.portfolio-list-items{
-    margin-bottom: 56px;
-}
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -272,7 +274,7 @@
     border-radius: 4px;
     display: block;
     margin: auto;
-    margin-top: 48px;
+    margin-top: 36px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -308,6 +310,7 @@
 
 .list-text-items {
     flex-basis: calc((100% - 3 * 24px));
+    margin-bottom: 0px;
 }
 
 
@@ -359,5 +362,9 @@
 
 .full-modal-form {
     padding: 72px 24px 24px 24px;
+}
+.team-list-items{
+    width: auto;
+    margin-bottom: 0px;
 }
 }

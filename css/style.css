@@ -106,7 +106,7 @@ h1,h2,h3,p{
   padding: 0;
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.10);
-  background-color:#E7E9FC;
+  background: linear-gradient(0deg, #E7E9FC, #E7E9FC),linear-gradient(0deg, #2E2F42, #2E2F42);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,6 +135,16 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.mob-nav-link-active {
+    color: #404BBF;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
 .mob-adress {
   display: block;
@@ -144,6 +154,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: auto;
 }
 
 .mob-nav-link:hover, .mob.mob-nav-link:focus {
@@ -165,22 +176,30 @@ display: flex;
 
 .mob-section-social {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 40px;
 }
 
 .mob-contacts-link {
 font-family: var(--font-family);
-font-family: Roboto;
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2%;
+line-height: 1.2;
 letter-spacing: 0.02em;
-
 color: var(--iris);
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.mob-contacts-link-active {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
 .mob-contacts-link:hover, .mob-contacts-link:focus {
   color: var(--IRIS, #4D5AE5);
@@ -308,7 +327,7 @@ background-color: #2E2F42;
 padding: 72px 0;
 /* padding: 188px 0; */
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-bg-x1.jpg);
-height: 432px;
+/* height: 432px; */
 width: 100%;
 background-repeat: no-repeat;
 background-position: center;
@@ -344,7 +363,7 @@ margin: 0px 56px;
   border-radius: 4px; 
   display: block;
   margin: auto;
-  margin-top: 72px;
+  margin-top: 36px;
   gap: 10px;
   padding: 16px, 32px, 16px, 32px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -407,6 +426,7 @@ margin: 0px 56px;
 .par-inv{
     color: #434455;
     line-height: 1.5;
+    font-weight: 500;
 }
 /* Кінець налаштувань другої секції */
 
@@ -440,20 +460,23 @@ margin: 0px 56px;
 .team-header{
     margin-bottom: 72px; 
     text-align: center;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 0.02em;
 }
 
 .team-list{
     display: flex; 
     flex-direction: column;
-    gap: 32px;
+    gap: 72px;
 }
 
 .team-list-items{
     /* width: calc((100% - 72px) / 4); */
     background-color: #FFFFFF;
     list-style-type: none;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow:  1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow:  0px 2px 1px 0px #2E2F4214, 0px 2px 1px 0px #2E2F4214, 0px 1px 6px 0px #2E2F4214;
+    width: 264px;
 }
 
 .employye{
@@ -550,6 +573,7 @@ margin: 0px 56px;
 }
 .portfolio-list-items{
     /* width: calc((100% - 24px * 2) / 3); */
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-items:hover{
@@ -579,11 +603,11 @@ margin: 0px 56px;
 }
 .container-list-items{
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    /* border: 1px solid #e7e9fc; */
+    border: 1px solid var(--CLOUD, #F4F4FD);
     border-top: none;
     margin-top: 0%;
-    border: 1px solid var(--CLOUD, #F4F4FD);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    /* box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
 }
 
 .container-list-items > h3{
@@ -908,6 +932,8 @@ width: 100%;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    display: flex;
+    gap: 8px;
 }
 .priv-pol{
     color: var(--IRIS, #4D5AE5);
@@ -925,6 +951,7 @@ width: 100%;
    justify-content: center;
    fill: transparent;
    border: 1px solid rgba(46, 47, 66, 0.4); 
+   flex-shrink: 0;
 
 }
 .submit-btn{
