@@ -84,7 +84,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-list-items{
-    margin-bottom: 32px;
+    gap: 64px 24px;
 }
 .address-items {
     display: flex;
@@ -99,6 +99,7 @@
 
 .headerone {
     padding: 112px 0 112px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/tab-hero.jpeg);
 }
 
 .main-header {
@@ -119,7 +120,7 @@
 .list-text-section {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
 }
 
 .list-text {
@@ -145,7 +146,7 @@
 
 .portfolio-list {
     align-items: center;
-    gap: 24px;
+    gap: 72px 24px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -234,16 +235,18 @@
         line-height: 1.5;
         gap: 40px;
     }
-
+.portfolio-list-items{
+    box-shadow: none;
+    width: calc((100% - 24px * 2) / 3);
+}
     .headerone {
     padding: 188px 0 188px;
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/des-hero1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/des-hero1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 1440px;
-    height: 600px;
     margin: 0 auto;
 }
 
@@ -349,11 +352,11 @@
 }
 
 .container-footer {
-    margin-right: 100px;
+    margin-right: 120px;
 }
 
 .logo-par {
-    margin-right: 80px;
+    margin-right: auto;
 }
 
 .footer-form {

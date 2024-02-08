@@ -42,14 +42,14 @@ h1,h2,h3,p{
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/mob-hero.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/mob-hero.jpeg);
   }
 }
 
 
 @media screen and (min-width:768px) and (min-resolution:192dpi) {
     .title {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-hero.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-hero.jpeg);
     }
     
     
@@ -59,7 +59,7 @@ h1,h2,h3,p{
 
 @media screen and (min-width:1158px) and (min-resolution:192dpi) {
     .title {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/des-hero.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/des-hero.jpeg);
     }
   }
 
@@ -314,7 +314,7 @@ color: #2e2f42;
 @media screen and (min-width: 320px), (min-resolution: 192dpi){
 
 .title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/phone-main-foto-x2.jpeg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/mob-hero1.jpeg);
 }
 
 }
@@ -438,7 +438,7 @@ margin: 0px 56px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    padding: 120px 0;
+    padding: 96px 0;
     text-align: left;
     list-style-type: none;
     background-color: #F4F4FD
@@ -463,6 +463,8 @@ margin: 0px 56px;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 0.02em;
+color: #2E2F42;
+
 }
 
 .team-list{
@@ -477,6 +479,7 @@ letter-spacing: 0.02em;
     list-style-type: none;
     box-shadow:  0px 2px 1px 0px #2E2F4214, 0px 2px 1px 0px #2E2F4214, 0px 1px 6px 0px #2E2F4214;
     width: 264px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .employye{
@@ -1023,13 +1026,15 @@ letter-spacing: 0.02em;
   white-space: nowrap; 
   overflow: hidden;
 }
+
+
 .chekbox-svg{
    color: transparent;
 }
 .visually-hidden:checked + .priv-par > span {
  background-color: #404bbf;
  border: none;
-}
+
 .cheked-input-box:checked + .priv-par span {
     fill: #F4F4FD; 
 }
