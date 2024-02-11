@@ -1035,10 +1035,9 @@ letter-spacing: 0.02em;
     background-color: #404bbf;
     border: none;
     } 
-   .cheked-input-box:checked + label .priv-par {
-       background-color: #404bbf;
-       border: none;
-   }
+    .visually-hidden:focus + .priv-par > .priv-pol {
+        border-color: #4D5AE5;
+    }
 .cheked-input-box:checked + .priv-par span {
     fill: #F4F4FD; 
 }
