@@ -99,7 +99,7 @@
 
 .headerone {
     padding: 112px 0 112px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/tab-hero.jpeg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/tab-hero1x.jpeg);
 }
 
 .main-header {
@@ -213,6 +213,13 @@
 }
 
 }
+@media screen and (min-width:768px) and (min-resolution:192dpi) {
+    .headerone {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-hero2.jpeg);
+    }
+}
+
+
 
 @media screen and (min-width: 1158px) {
     
@@ -370,4 +377,9 @@
     width: auto;
     margin-bottom: 0px;
 }
+}
+@media screen and (min-width:1158px) and (min-resolution:192dpi) {
+    .headerone {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/des-hero2.jpeg);
+    }
 }

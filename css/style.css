@@ -42,26 +42,9 @@ h1,h2,h3,p{
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/mob-hero.jpeg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/mob-bg-x2.jpeg);
   }
 }
-
-
-@media screen and (min-width:768px) and (min-resolution:192dpi) {
-    .title {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-hero.jpeg);
-    }
-    
-    
-}
-
-
-
-@media screen and (min-width:1158px) and (min-resolution:192dpi) {
-    .title {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/des-hero.jpeg);
-    }
-  }
 
 
 /* Налаштування мобільного меню */
@@ -313,8 +296,8 @@ color: #2e2f42;
 
 @media screen and (min-width: 320px), (min-resolution: 192dpi){
 
-.title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/mob-hero1.jpeg);
+.headerone {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/mob-bg-x2.jpeg);
 }
 
 }
@@ -326,7 +309,7 @@ text-align: center;
 background-color: #2E2F42;
 padding: 72px 0;
 /* padding: 188px 0; */
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-bg-x1.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-bg-x1.jpeg);
 /* height: 432px; */
 width: 100%;
 background-repeat: no-repeat;
