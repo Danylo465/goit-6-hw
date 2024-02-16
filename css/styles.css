@@ -150,11 +150,11 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-.portfolio-img {
-    width: 356px;
-    height: 300px;
+.portfolio-list-items{
+    box-shadow: none;
+    width: calc((100% - 24px * 1) / 2);
 }
+
 
 .footer {
     padding: 96px 92px;
@@ -345,10 +345,7 @@
     row-gap: 48px;
 }
 
-.portfolio-img {
-    width: 360px;
-    height: 300px;
-}
+
 
 .footer {
     padding: 100px 0 100px;

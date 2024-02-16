@@ -11,6 +11,8 @@ letter-spacing: 0.02em;
 
 img{
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 a{
